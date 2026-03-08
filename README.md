@@ -1,15 +1,15 @@
-Car Price Prediction: Deep Learning vs. Traditional Regression
+# Car Price Prediction: Deep Learning vs. Traditional Regression
 
 This repository explores vehicle price estimation using TensorFlow and Scikit-Learn. The project compares a Deep Learning approach (Neural Networks) against traditional statistical models (Ordinary Least Squares and Stochastic Gradient Descent).
 
-📌 Project Overview
+## 📌 Project Overview
 The goal is to predict the Present_Price of a vehicle based on various attributes. The project is split into two experimental setups:
 
 Rnu.py: A standard approach including all available numerical and categorical features.
 
 Run_exclude_Selling_Price.py: A more challenging scenario where Selling_Price is removed to test how well the model predicts the car's value based solely on its specifications and usage.
 
-🛠️ Technical Workflow
+## 🛠️ Technical Workflow
 1. Data Preprocessing
 One-Hot Encoding: Converts categorical variables (Car Name, Fuel Type, Seller Type, Transmission) into numerical dummy variables.
 
@@ -28,7 +28,7 @@ Two hidden layers (100 and 50 neurons) with ReLU activation.
 
 Output layer with 1 neuron for regression.
 
-📊 Evaluation & Visualization
+## 📊 Evaluation & Visualization
 Each script generates a three-panel comparison plot using matplotlib. These plots visualize the correlation between Actual Prices and Predicted Prices across:
 
 Training Set
